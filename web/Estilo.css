@@ -1,0 +1,273 @@
+body{
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    left: 0 px;
+    top: 0 px;
+    background-size: cover;
+    background: url(/wallpaper/763110.jpg) ;
+    font-family: 'Handlee','Indie Flower', 'Alata', 'sans-serif';
+
+}
+
+@font-face {
+   
+    font-family: 'SweetApricot';
+    src: url(/font/SweetApricot-PKM0m.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+    @font-face {
+    font-family: 'AlohaDemo';
+    src: url(/font/AlohaDemo-ya0V.ttf);
+    font-weight: normal;
+    font-style: normal;
+    }
+    @font-face {
+        font-family: 'MarinaSundaland';
+        src: url(/font/MarinaSundaland-qZYor.otf);
+        font-weight: normal;
+        font-style: normal;
+        }
+.fotografia{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 1095px;
+    top: 14px;
+    border-radius: 1000px;
+}
+
+:root{
+    --rosita:#cf9e8b;
+    --naval:#162336;
+    --moradado1:#162336;
+    --morado2:#7279ae;
+    --rosa:#795b5f;
+    --morado3:#394360;
+    --terracota:#a33213;
+    --gris1:#929dad;
+    --gris2:#536472;
+    --letter:#08090d;
+
+}
+
+.Encabezado{
+
+    font-family: 'MarinaSundaland';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 10px;
+    text-align: center;
+    align-items: center;
+    color: #000000;
+    position: absolute;
+    width: 1280px;
+    height: 200px;
+    left: 64px;
+    top: 64px;
+    opacity: 0.8;
+    position: absolute;
+    background: var(--rosa);
+    border-radius: 25px;
+    
+}
+
+header{
+    position: center;
+    width: 1402px;
+    height: 309px;
+    left: 18px;
+    top: 32px;
+}
+
+.fotografia{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 1095px;
+    top: 14px;
+}
+
+.Taller{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    left: 64px;
+    top: 359px;
+
+    background: var(--morado2);
+    border-radius: 25px;
+    opacity: 0.8;
+}
+
+.Titulotalleres{
+    position: absolute;
+    width: 237.5px;
+    height: 64.37px;
+    left: 157.06px;
+    top: 413.02px;
+    font-family: 'AlohaDemo';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #000000;
+}
+
+.Listataller{
+    position: absolute;
+    width: 200.5px;
+    height: 296.55px;
+    left: 155.56px;
+    top: 485.37px;
+    font-family: 'Handlee';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+.Consulta{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    left: 498px;
+    top: 359px;
+
+    background: var(--gris1);
+    border-radius: 25px;
+    opacity: 0.8;
+}
+
+.TituloConsulta{
+    position: absolute;
+    width: 237.5px;
+    height: 64.37px;
+    left: 580px;
+    top: 413px;
+    
+    font-family: 'AlohaDemo';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    
+    color: #000000;
+}
+
+.ListaConsultas{
+    position: absolute;
+    width: 208px;
+    height: 291px;
+    left: 579px;
+    top: 523px;
+font-family: 'Handlee';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+.Reto{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    left: 932px;
+    top: 359px;
+
+    background: var(--morado2);
+    border-radius: 25px;
+    opacity: 0.8;
+}
+
+.TituloReto{
+    position: absolute;
+    width: 125px;
+    height: 56px;
+    left: 1069px;
+    top: 421px;
+
+    font-family: 'AlohaDemo';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #000000;
+}
+
+.ListaReto{
+    position: absolute;
+    width: 188px;
+    height: 292px;
+    left: 1027px;
+    top: 522px;
+    position: absolute;
+    width: 188px;
+    height: 42px;
+    left: 1027px;
+    top: 522px;
+
+    font-family: 'Handlee';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+.PiePagina{
+    position: absolute;
+    width: 1271px;
+    height: 91px;
+    left: 63px;
+    top: 881px;
+
+    background: #162336;
+   
+    border-radius: 25px;
+}
+
+.Creditos{
+    position: absolute;
+width: 1042px;
+height: 73px;
+left: 100px;
+top: 880px;
+
+font-family: 'SweetApricot';
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 21px;
+text-align: center;
+
+color: var(--gris1);
+
+/*transform: matrix(-1, 0, 0, 1, 0, 0);*/
+}
+
+.git{
+    position: absolute;
+    left: 78.82%;
+    right: 15.62%;
+    top: 86.62%;
+    bottom: 5.57%;
+
+}
+
+.neocities{
+    position: absolute;
+    left: 86.46%;
+    right: 7.99%;
+    top: 86.62%;
+    bottom: 5.76%;
+}
