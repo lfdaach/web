@@ -1,0 +1,67 @@
+body {
+  width: 1024px;
+  height: 600px;
+  position: absolute;
+  left: 0 px;
+  top: 0 px;
+  background: url(/images/hongo.jpg) no-repeat;
+  background-size: cover;
+}
+:root{
+  --rosita:#cf9e8b;
+  --naval:#162336;
+  --moradado1:#162336;
+  --morado2:#7279ae;
+  --rosa:#795b5f;
+  --morado3:#394360;
+  --terracota:#a33213;
+  --gris1:#929dad;
+  --gris2:#536472;
+  --letter:#08090d;
+}
+td {
+  border: 1px var(--gris1) solid;
+  
+  ;
+}
+/* 
+table {
+  top: 3%;
+  position: absolute;
+  margin-left: 45%;
+}
+
+.letra:hover {
+  background: #45CB85;
+}
+
+H1 {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  left: 9%;
+}
+
+ul {
+  top: 20%;
+  line-height: 1.5;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-size: large;
+}
+
+.ol1 {
+  left: 5%;
+}
+
+.ol2 {
+  left: 25%;
+}
+
+.imgatras {
+  position: absolute;
+  left: 2%;
+  color: #ffffff;
+  width: 30px;
+  height: 30px;
+  top: 5%;
+} */
