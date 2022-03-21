@@ -57,23 +57,13 @@ body{
 
 .contenedor,
 .wave-contenedor{
-    width: 90%;
+    width: 1000%;
     max-width: 1000px;
     overflow: hidden;
     margin: auto;
     padding: 0 0 80px 0;
 }
-.contenedor{
-    padding: 80px 0;
-}
 
-.Titulo.left{
-    text-align: left;
-}
-
-.Titulo.right{
-    text-align: right;
-}
 
 /* Taller */
 
@@ -87,45 +77,52 @@ body{
 }
 
 .taller .contenedor-textos-main{
-    width: 40%;
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+    padding: 0 0 80px 0;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 /* consultas */
 
 .consultas{
     background: #f2f2f2;
-    
+    display: flex;
+    justify-content: space-between;
     
 }
 
 .consultas-cont{
     width: 100%;
-    display: flex;
+    overflow: hidden;
+    margin: auto;
+    padding: 0 0 80px 0;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    overflow: hidden;
+
 }
 
-.consultas-cont>img{
-    width: 30%;
-    object-fit: cover;
-    margin-bottom: 20px;
+.consultas img{
+    width: 28%;
+    position: center;
 }
 
-/* Referencia */
+/* Reto */
 
-.last-section{
+.reto{
+
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     padding-bottom: 40px;
 }
 
-.last-section img{
+.reto img{
     width: 48%;
 }
 
-.last-section .contenedor-textos-main{
+.reto .contenedor-textos-main{
     width: 40%;
 }
 
@@ -137,11 +134,6 @@ footer{
     color: #fff;
 }
 
-.form{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 .git{
     position: absolute;
     left: 85%;
@@ -169,6 +161,26 @@ footer{
     font-size: 48px;
     color: #000000;
 }
+.Titulo_Left{
+    font-weight: 300;
+    text-align: celeftnter;
+    margin-bottom: 30px;
+    font-family: 'Indie Flower';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    color: #000000;
+}
+.Titulo_right{
+    font-weight: 300;
+    text-align: right;
+    margin-bottom: 30px;
+    font-family: 'Indie Flower';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    color: #000000;
+}
 .Creditos{
     width: 1042px;
     height: 73px;
@@ -182,11 +194,10 @@ footer{
     line-height: 21px;
     text-align: center;
 
-    
     }
 .Lista{
 
-
+    text-align: center;
     font-family: 'Handlee';
     font-style: normal;
     font-weight: bold;
@@ -194,5 +205,26 @@ footer{
     color: #000000;
 
 }
+.Lista_left{
+
+    text-align: left;
+    font-family: 'Handlee';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #000000;
+
+}
+.Lista_right{
+
+    text-align: right;
+    font-family: 'Handlee';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #000000;
+
+}
+
 
 
