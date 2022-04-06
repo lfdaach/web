@@ -1,12 +1,9 @@
 body {
-  width: 1024px;
-  height: 600px;
-  position: absolute;
-  left: 0 px;
-  top: 0 px;
+  font-family: 'Handlee','Indie Flower', 'Alata',sans-serif;
+  padding: 10px;
   background: url(/images/hongo.jpg) no-repeat;
   background-size: cover;
-  font-family: 'Handlee','Indie Flower', 'Alata',sans-serif;
+  
 }
 :root{
   --rosita:#cf9e8b;
@@ -31,8 +28,6 @@ td {
 * {
   box-sizing: border-box;
 }
-
-
 
 /* Header/Blog Title */
 .header {
@@ -172,7 +167,7 @@ ul {
   left: 25%;
 }
 
-.imgatras {
+.imgback {
   position: absolute;
   left: 2%;
   color: #ffffff;
