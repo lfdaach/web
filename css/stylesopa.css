@@ -77,45 +77,51 @@ td {
   clear: both;
 }
 
-/* Footer */
-.footer {
-  padding: 1px;
-  text-align: center;
-  background: #ddd;
-  margin-top: 20px;
-  display: flex;
-}
-.footer h2{
+  /* Footer */
+  .footer {
+    width: 100%;
+    height: 20%;
+    padding: 1px;
+    
+    background: #ddd;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .footer_left{
+    flex-direction: column;
+    padding: 0 0 0 20px ;
+    text-align: center; 
   
-  padding: 0 0 0 20px ;
-  text-align: center; 
-  right: 45%;
-}
-.footer p{
-  padding: 10px;
-  text-align: right;
-  position: absolute;
-  left: 45%;
+    width: 75%;
+  }
+  .footer_rigt{
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 25%;
   
-}
-
-.git{
-  position: absolute;
-  left: 85%;
-  right: 10%;
-  margin-right: 12px;
-  width: 70px;
-  height: 70px;
-}
-
-.neocities{
-  position: absolute;
-  left: 90%;
-  right: 5%;
-  margin-left: 12px;
-  width: 70px;
-  height: 70px;
-}
+  
+  }
+  
+  
+  .git{
+  
+  
+    margin-right: 12px;
+    width: 70px;
+    height: 70px;
+  }
+  
+  .neocities{
+  
+  
+    margin-left: 12px;
+    width: 70px;
+    height: 70px;
+  }
+    
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
